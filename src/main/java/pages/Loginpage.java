@@ -10,14 +10,18 @@ public class Loginpage {
 
 	private By usernameTextbox = By.xpath("//*[@placeholder='Username']");
 	private By passwordTextbox = By.cssSelector("input[placeholder='Password']");
+	
 	private By submitButton = By.xpath("//*[@type='submit']");
 
 	public Loginpage(WebDriver driver) {
 		this.driver = driver;
 	}
 
+	
+	
 	public void enterUsername(String username) {
 		driver.findElement(usernameTextbox).clear();
+		//WebElement usernm = driver.findElement(usernameTextbox);
 		driver.findElement(usernameTextbox).sendKeys(username);
 
 	}

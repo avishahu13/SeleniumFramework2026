@@ -2,24 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-30T18:58:19 IST" name="Suite" finished-at="2026-04-30T18:58:29 IST" duration-ms="9095">
+  <suite started-at="2026-05-01T23:04:22 IST" name="Default suite" finished-at="2026-05-01T23:04:32 IST" duration-ms="9733">
     <groups>
     </groups>
-    <test started-at="2026-04-30T18:58:19 IST" name="Test" finished-at="2026-04-30T18:58:29 IST" duration-ms="9095">
-      <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@5fe94a96]" started-at="2026-04-30T18:58:19 IST" name="setup" finished-at="2026-04-30T18:58:27 IST" duration-ms="7435" status="PASS">
+    <test started-at="2026-05-01T23:04:22 IST" name="Default test" finished-at="2026-05-01T23:04:32 IST" duration-ms="9733">
+      <class name="tests.TakeScreenshot">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.TakeScreenshot@3b0090a4]" started-at="2026-05-01T23:04:21 IST" name="setupReport" finished-at="2026-05-01T23:04:22 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TakeScreenshot@3b0090a4]" started-at="2026-05-01T23:04:22 IST" name="setup" finished-at="2026-05-01T23:04:30 IST" duration-ms="7976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validlogin()[pri:0, instance:tests.LoginPageTest@5fe94a96]" started-at="2026-04-30T18:58:27 IST" name="validlogin" finished-at="2026-04-30T18:58:28 IST" duration-ms="1190" status="PASS">
+        <test-method signature="takeSS()[pri:0, instance:tests.TakeScreenshot@3b0090a4]" started-at="2026-05-01T23:04:30 IST" name="takeSS" finished-at="2026-05-01T23:04:31 IST" duration-ms="1269" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginPageTest@5fe94a96]" started-at="2026-04-30T18:58:28 IST" name="teardown" finished-at="2026-04-30T18:58:29 IST" duration-ms="396" status="PASS">
+        </test-method> <!-- takeSS -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.TakeScreenshot@3b0090a4]" started-at="2026-05-01T23:04:31 IST" name="teardown" finished-at="2026-05-01T23:04:32 IST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=takeSS status=SUCCESS method=TakeScreenshot.takeSS()[pri:0, instance:tests.TakeScreenshot@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.TakeScreenshot@3b0090a4]" started-at="2026-05-01T23:04:32 IST" name="teardownReport" finished-at="2026-05-01T23:04:32 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownReport -->
+      </class> <!-- tests.TakeScreenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
