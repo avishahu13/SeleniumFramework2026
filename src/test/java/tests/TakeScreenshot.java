@@ -22,15 +22,15 @@ public class TakeScreenshot extends Basetest {
 		loginpage.enterUsername("Admin");
 		
 		//Take full screen SS
-		TakesScreenshot ss = (TakesScreenshot)driver; // 
-		File scr  = ss.getScreenshotAs(OutputType.FILE);
-		File trg = new File(System.getProperty("user.dir")+"\\screenshots\\ss.png");
-		scr.renameTo(trg); //copy src file to destination
-		
+//		TakesScreenshot ss = (TakesScreenshot)driver; // 
+//		File scr  = ss.getScreenshotAs(OutputType.FILE);
+//		File trg = new File(System.getProperty("user.dir")+"\\screenshots\\ss.png");
+//		scr.renameTo(trg); //copy src file to destination
+//		
 		WebElement usernm = driver.findElement(By.xpath("//*[@placeholder='Username']"));
 		//Take element of SS
 		File src1 = usernm.getScreenshotAs(OutputType.FILE);
-		File trg2 = new File(System.getProperty("ser.dir")+"\\screenshots\\elementss.png");
+		File trg2 = new File(System.getProperty("user.dir")+"\\screenshots\\elementss.png");
 		src1.renameTo(trg2);
 	}
 

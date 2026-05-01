@@ -9,7 +9,7 @@ public class Loginpage {
 	protected WebDriver driver;
 
 	private By usernameTextbox = By.xpath("//*[@placeholder='Username']");
-	private By passwordTextbox = By.cssSelector("input[placeholder='Password']");
+	private By passwordTextbox = By.xpath("//input[@placeholder='Password']");
 	
 	private By submitButton = By.xpath("//*[@type='submit']");
 
@@ -28,7 +28,7 @@ public class Loginpage {
 
 	public void enterPassword(String password) {
 		driver.findElement(passwordTextbox).clear();
-		driver.findElement(usernameTextbox).sendKeys(password);
+		driver.findElement(passwordTextbox).sendKeys(password);
 
 	}
 
